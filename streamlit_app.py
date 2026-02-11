@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("calculater")
+st.title("calculator")
 
 n1 = st.number_input("Enter n1")
 n2 = st.number_input("Enter n2")
@@ -25,4 +25,5 @@ if Mul:
     st.text("Mul is {}.".format(ans))
 if Div:
     ans = n1/n2
+
     st.text("Div is {}.".format(ans))
